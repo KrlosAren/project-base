@@ -1,0 +1,20 @@
+{
+  "name": "project-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-cli": "^4.3.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack": "^5.11.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0"
+  },
+  "scripts": {
+    "start": "webpack serve --config webpack.config.js --mode development --progress"
+  },
+  "keywords": [],
+  "author": "Carlos Lopez Z. <krlosaren@gmail.com>",
+  "license": "ISC",
+  "description": ""
+}
